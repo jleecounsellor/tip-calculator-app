@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="design/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <img src="images/logo.svg" alt="Splitter logo" id="logo" />
+    <div class="insideContainer">
+      <div class="leftCol">
+        <div class="errorCont">
+        <h2>Bill</h2>
+        <p class="error">Can't be zero</p>
+        <input type="text" name="bill" value="" id="bill" placeholder="0" autocomplete="off">
+        </div>
+        <h2>Select Tip %</h2>
+        <div class="tipPercentage">
+          <button class="tip" value="5">5%</button>
+          <button class="tip" value="10">10%</button>
+          <button class="tip" value="15">15%</button>
+          <button class="tip" value="25">25%</button>
+          <button class="tip" value="50">50%</button>
+          <input type="text" name="custom" value="" placeholder="Custom"
+          id="customBtn" autocomplete="off">
+        </div>
+        <div class="errorCont">
+        <h2>Number of People</h2>
+        <p class="error">Can't be zero</p>
+        <input type="text" name="" value="" id="numPeople" placeholder="0" autocomplete="off">
+        </div>
+      </div>
+      <div class="rightCol">
+        <div class="wrapper">
+          <div class="panel1">
+            <h2>Tip Amount</h2>
+          </div>
+          <div class="tallPanel">
+            <p id="tipAmount">$0.00</p>
+          </div>
+          <div class="panel2">
+            <h3>/ person</h3>
+          </div>
+          <div class="panel1">
+            <h2>Total</h2>
+          </div>
+          <div class="tallPanel">
+            <p id="total">$0.00</p>
+          </div>
+          <div class="panel2">
+            <h3>/ person</h3>
+          </div>
+          <div class="panelSpan">
+            <button id="resetBtn">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Jamie C</a>.
+  </div>
+  <script src="design/js/app.js"></script>
+</body>
+
+</html>
