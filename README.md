@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/jleegunn/tip-calculator-app)
-- [Live Site URL](https://jleegunn.github.io/tip-calculator-app/)
+- [Live Site URL](https://jleecounsellor.github.io/tip-calculator-app/)
 
 ## My process
 
@@ -90,4 +90,4 @@ document.querySelectorAll(".tip").forEach(item => {
 
 ## Author
 
-- Website - [Jamie Counsellor](tbd)
+- Website - [Jamie Counsellor](https://counsellorj.herokuapp.com/)
